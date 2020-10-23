@@ -28,6 +28,7 @@ namespace SweetTreats.Controllers
       var userFlavors = _db.Flavors.Where(entry => entry.User.Id == currentUser.Id).ToList();
       return View(userFlavors);
     }
+    
     public ActionResult Create()
     {
       ViewBag.TreatId = new SelectList(_db.Treats, "TreatId", "TreatName");
@@ -58,5 +59,56 @@ namespace SweetTreats.Controllers
       return View(thisFlavor);
     }
 
+    public ActionResult Edit(int id)
+    {
+    var thisFlavor = _db.Flavors.FirstOrDefault(flavors =>flavors.FlavorId == id);
+    ViewBag.TreatId = new SelectList(_db.Treats, "TreatId", "TreatName");
+    return View(thisFlavor);
+    }
+    
+    [HttpPost]
+    public ActionResult Edit(Flavor flavor, int TreatId)
+    {
+      if (TreatId !=0)
+      {
+        _db.FlavorTreat.Add(new FlavorTreat(){ Treatid = TreatId, FlavorId= flavor.FlavorId});
+      }
+      _db.Entry(Treat).State = EntityState.Modified;
+      _db.SaveChanges();
+      return RedirectToAction("Index");
+      }
+  
+      public ActionResult Delete(int id)
+      {
+        var thisFlavor = _db.Flavors.FirstOrDefault(flavors => flavors.FlavorId == id);
+        return View(ThisFlavor);
+      }
+
+      [HttpPost, ActionName("Delete")]
+      public ActionResult DeleteConfirmed(int id)
+      {
+        var thisFlavor = _db.Flavors.FirstOrDefault(flavors => flavors.FlavorId == id);
+        _db.Flavors.Remove(thisFlavor);
+        _db.SaveChanges();
+        return RedirectToAction("Index");
+      }
+    
+    public ActionResult AddTreat(int id)
+    {
+      var thisFlavor = _db.Flavors.FirstOrDefault(flavors => flavors.FlavorId == id);
+      ViewBag.TreatId = new SelectList(_db.Treats, "TreatId", "TreatName");
+      return View(thisFlavor);
+    }
+
+    [HttpPost]
+    public ActionResult AddTreat(Flavor flavor, int treatId)
+    {
+      if (TreatId != 0)
+      {
+        _db.FlavorTreat.Add(new FlavorTreat(){ TreatId = TreatId, FlavorId = flavor.FlavorId});
+      }
+      _db.SaveChanges();
+      return RedirectToAction("Index")
+    }
   }
 }
