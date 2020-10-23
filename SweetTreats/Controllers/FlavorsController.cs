@@ -71,9 +71,9 @@ namespace SweetTreats.Controllers
     {
       if (TreatId !=0)
       {
-        _db.FlavorTreat.Add(new FlavorTreat(){ Treatid = TreatId, FlavorId= flavor.FlavorId});
+        _db.FlavorTreat.Add(new FlavorTreat(){ TreatId = TreatId, FlavorId= flavor.FlavorId});
       }
-      _db.Entry(Treat).State = EntityState.Modified;
+      _db.Entry(flavor).State = EntityState.Modified;
       _db.SaveChanges();
       return RedirectToAction("Index");
       }
@@ -81,7 +81,7 @@ namespace SweetTreats.Controllers
       public ActionResult Delete(int id)
       {
         var thisFlavor = _db.Flavors.FirstOrDefault(flavors => flavors.FlavorId == id);
-        return View(ThisFlavor);
+        return View(thisFlavor);
       }
 
       [HttpPost, ActionName("Delete")]
@@ -101,14 +101,14 @@ namespace SweetTreats.Controllers
     }
 
     [HttpPost]
-    public ActionResult AddTreat(Flavor flavor, int treatId)
+    public ActionResult AddTreat(Flavor flavor, int TreatId)
     {
       if (TreatId != 0)
       {
         _db.FlavorTreat.Add(new FlavorTreat(){ TreatId = TreatId, FlavorId = flavor.FlavorId});
       }
       _db.SaveChanges();
-      return RedirectToAction("Index")
+      return RedirectToAction("Index");
     }
   }
 }
