@@ -1,5 +1,5 @@
 {
-  "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats.Solution.csproj",
+  "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\SweetTreats.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -1869,46 +1869,66 @@
     ],
     "CSharpLanguageVersion": 703
   },
-  "RootNamespace": "SweetTreats.Solution",
+  "RootNamespace": "SweetTreats",
   "Documents": [
     {
-      "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\Views\\Flavors\\AddTreat.cshtml",
+      "TargetPath": "Views\\Flavors\\AddTreat.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\Views\\Account\\Login.cshtml",
+      "TargetPath": "Views\\Account\\Login.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\Views\\Shared\\_CookieConsentPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\Views\\Flavors\\Create.cshtml",
+      "TargetPath": "Views\\Flavors\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\Views\\Flavors\\Details.cshtml",
+      "TargetPath": "Views\\Flavors\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\Views\\Account\\Index.cshtml",
+      "TargetPath": "Views\\Account\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\Views\\Flavors\\Edit.cshtml",
+      "TargetPath": "Views\\Flavors\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\Views\\Home\\Index.cshtml",
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\Views\\Flavors\\Index.cshtml",
+      "TargetPath": "Views\\Flavors\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\Views\\Account\\Register.cshtml",
+      "TargetPath": "Views\\Account\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\Views\\Shared\\Header.cshtml",
+      "TargetPath": "Views\\Shared\\Header.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\Views\\Flavors\\Delete.cshtml",
+      "TargetPath": "Views\\Flavors\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     }
   ],
