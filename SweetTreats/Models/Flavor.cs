@@ -1,4 +1,5 @@
-using System.Collection.Generic;
+using System.Collections.Generic;
+using System;
 
 namespace SweetTreats.Models
 {
@@ -8,10 +9,10 @@ namespace SweetTreats.Models
     {
       this.Treats = new HashSet<FlavorTreat>();
     }
-    public int TreatId {get; set;}
-    public string TreatName {get; set;}
-    public string TreatDescription {get; set;}
+    public int FlavorId {get; set;}
+    public string FlavorName {get; set;}
+    public string FlavorDescription {get; set;}
     public virtual ApplicationUser User {get; set;}
-    public ICollection<FlavorTreat> Treats {get;}
+    public virtual ICollection<FlavorTreat> Treats {get;}
   }
 }

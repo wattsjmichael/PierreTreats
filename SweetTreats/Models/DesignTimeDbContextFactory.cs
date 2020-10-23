@@ -12,7 +12,7 @@ namespace SweetTreats.Models
       IConfigurationRoot configuration = new ConfigurationBuilder()
       .SetBasePath(Directory.GetCurrentDirectory())
       .AddJsonFile("appsettings.json")
-      .Build()
+      .Build();
 
       var builder = new DbContextOptionsBuilder<SweetTreatsContext>();
       var connectionString = configuration.GetConnectionString("DefaultConnection");

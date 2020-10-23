@@ -1,5 +1,5 @@
-using Microsoft.EntitiyFrameworkCore;
-using Micorsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace SweetTreats.Models
 {
@@ -8,6 +8,6 @@ namespace SweetTreats.Models
     public DbSet<Flavor> Flavors {get; set;}
     public DbSet<Treat> Treats {get; set;}
     public DbSet<FlavorTreat> FlavorTreat {get; set;}
-    public SweetTreatsCcontext(DbContextOptions options) : base(options) { }
+    public SweetTreatsContext(DbContextOptions options) : base(options) { }
 }
 }

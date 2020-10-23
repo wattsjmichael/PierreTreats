@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "K:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats.Solution.csproj": {}
+    "K:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\SweetTreats.Solution.csproj": {}
   },
   "projects": {
-    "K:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats.Solution.csproj": {
+    "K:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\SweetTreats.Solution.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats.Solution.csproj",
+        "projectUniqueName": "K:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\SweetTreats.Solution.csproj",
         "projectName": "SweetTreats.Solution",
-        "projectPath": "K:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats.Solution.csproj",
+        "projectPath": "K:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\SweetTreats.Solution.csproj",
         "packagesPath": "C:\\Users\\WATTS\\.nuget\\packages\\",
-        "outputPath": "K:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\obj\\",
+        "outputPath": "K:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -52,11 +52,19 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             }
           },
           "imports": [
