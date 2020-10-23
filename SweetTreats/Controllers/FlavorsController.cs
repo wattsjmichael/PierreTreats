@@ -110,5 +110,14 @@ namespace SweetTreats.Controllers
       _db.SaveChanges();
       return RedirectToAction("Index");
     }
+    [HttpPost]
+    
+    public ActionResult DeleteTreat(int joinId)
+    {
+      var joinEntry =_db.FlavorTreat.FirstOrDefault(entry=>entry.FlavorTreatId == joinId);
+      _db.FlavorTreat.Remove(joinEntry);
+      _db.SaveChanges();
+      return RedirectToAction("Index");
+    }
   }
 }
