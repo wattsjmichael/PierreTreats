@@ -1877,6 +1877,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\Views\\Treats\\Delete.cshtml",
+      "TargetPath": "Views\\Treats\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\Views\\Treats\\Details.cshtml",
+      "TargetPath": "Views\\Treats\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\Views\\Account\\Login.cshtml",
       "TargetPath": "Views\\Account\\Login.cshtml",
       "FileKind": "mvc"
@@ -1892,13 +1902,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\Views\\Treats\\Index.cshtml",
+      "TargetPath": "Views\\Treats\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\Views\\Account\\Index.cshtml",
       "TargetPath": "Views\\Account\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\Views\\Treats\\Create.cshtml",
+      "TargetPath": "Views\\Treats\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\Views\\Flavors\\Edit.cshtml",
       "TargetPath": "Views\\Flavors\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\Views\\Treats\\Edit.cshtml",
+      "TargetPath": "Views\\Treats\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -1929,6 +1954,11 @@
     {
       "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\Views\\Treats\\AddFlavor.cshtml",
+      "TargetPath": "Views\\Treats\\AddFlavor.cshtml",
       "FileKind": "mvc"
     }
   ],

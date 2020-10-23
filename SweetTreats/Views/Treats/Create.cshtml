@@ -1,0 +1,33 @@
+@{
+  Layout = "_Layout";
+}
+
+@model SweetTreats.Models.Treat
+
+<h3>Add a new Treats</h3><hr>
+
+<div class="row">
+  <div class="col-sm">
+  </div>
+    <div class="col-sm">
+    @using (Html.BeginForm())
+  {
+  <p>Treats Name: </p>
+  @Html.TextBoxFor(model => model.TreatName, new {@style="width:100%"})<br><br>
+  <p>Treats Description: </p>
+  @Html.TextBoxFor(model => model.TreatDescription, new {@style="width:100%"})<br><br>
+ 
+
+  <p>Flavors: </p>
+  @Html.DropDownList("FlavorId", null, new {@class="form-control"})<br>
+  <p>Don't see your flavor? Add one <a href="/Flavors/Create">here</a>.</p><br>
+
+  
+
+  <input type="submit" value="Add a new Treat" class="btn btn-outline-dark btn-block" /><br>
+  }
+  <p>@Html.ActionLink("Show all Treats", "Index", null, null, new { @class="btn btn-outline-dark btn-block"})</p>
+    </div>
+    <div class="col-sm">
+    </div>
+  </div>
