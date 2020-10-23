@@ -32,7 +32,7 @@ namespace SweetTreats.Controllers
       ViewBag.TreatId = new SelectList(_db.Treats, "TreatId", "TreatName");
       return View();
     }
-
+  [Authorize]
     [HttpPost]
     public async Task<ActionResult> Create(Flavor flavor, int TreatId)
     {
@@ -56,7 +56,7 @@ namespace SweetTreats.Controllers
       .FirstOrDefault(flavor => flavor.FlavorId == id);
       return View(thisFlavor);
     }
-
+  [Authorize]
     public ActionResult Edit(int id)
     {
     var thisFlavor = _db.Flavors.FirstOrDefault(flavors =>flavors.FlavorId == id);
@@ -75,6 +75,7 @@ namespace SweetTreats.Controllers
       _db.SaveChanges();
       return RedirectToAction("Index");
       }
+      [Authorize]
   
       public ActionResult Delete(int id)
       {
@@ -90,7 +91,7 @@ namespace SweetTreats.Controllers
         _db.SaveChanges();
         return RedirectToAction("Index");
       }
-    
+    [Authorize]
     public ActionResult AddTreat(int id)
     {
       var thisFlavor = _db.Flavors.FirstOrDefault(flavors => flavors.FlavorId == id);
@@ -109,7 +110,7 @@ namespace SweetTreats.Controllers
       return RedirectToAction("Index");
     }
     [HttpPost]
-    
+[Authorize]    
     public ActionResult DeleteTreat(int joinId)
     {
       var joinEntry =_db.FlavorTreat.FirstOrDefault(entry=>entry.FlavorTreatId == joinId);

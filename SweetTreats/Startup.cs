@@ -35,7 +35,7 @@ namespace SweetTreats
 
       services.Configure<IdentityOptions>(options =>
       {
-        options.Password.RequireDigit = false;
+        options.Password.RequireDigit = true;
         options.Password.RequiredLength = 0;
         options.Password.RequireLowercase = false;
         options.Password.RequireNonAlphanumeric = false;
