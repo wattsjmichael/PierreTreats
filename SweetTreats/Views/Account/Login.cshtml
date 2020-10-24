@@ -10,6 +10,7 @@
 <hr />
 @using (Html.BeginForm())
 {
+  @Html.ValidationSummary(false, "", new { @class = "text-danger" })
     @Html.LabelFor(m => m.Email)
     @Html.TextBoxFor(m => m.Email)
 
