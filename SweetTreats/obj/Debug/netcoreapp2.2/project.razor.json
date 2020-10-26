@@ -1882,6 +1882,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\Views\\Shared\\_Header.cshtml",
+      "TargetPath": "Views\\Shared\\_Header.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\Views\\Treats\\Details.cshtml",
       "TargetPath": "Views\\Treats\\Details.cshtml",
       "FileKind": "mvc"
@@ -1939,11 +1944,6 @@
     {
       "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\Views\\Account\\Register.cshtml",
       "TargetPath": "Views\\Account\\Register.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "k:\\Epicodus-Projects\\CSharp\\SweetTreats.Solution\\SweetTreats\\Views\\Shared\\Header.cshtml",
-      "TargetPath": "Views\\Shared\\Header.cshtml",
       "FileKind": "mvc"
     },
     {
