@@ -3,6 +3,7 @@
 
 👤 **Michael Watts**
 
+* Portfolio [wattsjmichael.com](https://www.wattsjmichael.com)
 * Twitter: [@michaelwatts13](https://twitter.com/michaelwatts13)
 * Github: [@wattsjmichael](https://github.com/wattsjmichael)
 * LinkedIn: [@wattsjimichael](https://linkedin.com/in/wattsjmichael)
