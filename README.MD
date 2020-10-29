@@ -42,7 +42,7 @@ Email me @ wattsjmichael@gmail.com
 
 ## Technologies Used
 
-C#, LINQ, Entity Framework Core, MVCTest, MySql, CSHTML, CSS, Bootstrap, Identity and Markdown.
+C#, LINQ, Entity Framework Core, MVC, MySql, CSHTML, CSS, Bootstrap, Identity and Markdown.
 
 ## Link To Active Site:
 Not Applicable
